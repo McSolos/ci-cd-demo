@@ -1,15 +1,10 @@
-# React + Vite
+✅ Step 1: Set Up a Vite React Project
+🔧 What I Did:
+Use Vite to scaffold a React app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Install basic linting tools
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Prepare the app for deployment
 
 
 
@@ -63,3 +58,29 @@ export default defineConfig([
 
 "npx eslint src" to test
 "npx eslint src --fix" to fix
+
+✅ Step 2: Push to GitHub
+Create a public GitHub repo and push your code
+
+✅ Step 3: Set Up GitHub Actions Workflow
+Lint (e.g., eslint)
+
+Optional: Run tests
+
+Deploy using peaceiris/actions-gh-pages
+
+✅ Step 3: Set Up GitHub Actions Workflow
+We'll now:
+
+Create a GitHub Actions workflow to:
+
+Install dependencies
+
+Lint the code using ESLint
+
+(Optional) Run tests
+
+Build the Vite app
+
+Deploy the build to GitHub Pages
+
